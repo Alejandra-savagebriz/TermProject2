@@ -21,7 +21,8 @@ Team 2 members: Alejandra Savage, Jesús Eduardo Ibarra, Yahya Kocakale, Zunaira
 
 
 - **Source files Folder:**
-  - Find datasets used in the project within the dataset folder:
+  - Find datasets used in the project within the dataset folder: [Datasets](https://github.com/Alejandra-savagebriz/TermProject2/tree/main/Datasets)
+
 
 
 ## Note
