@@ -1,6 +1,8 @@
 # TermProject2
 
 Welcome to the Data Engineering 1 Term Project 2 repository. This repository hosts essential files and resources related to the project.
+
+
 Team 2 members: Alejandra Savage, Jesús Eduardo Ibarra, Yahya Kocakale, Zunaira Pasha
 
 
@@ -11,7 +13,7 @@ Team 2 members: Alejandra Savage, Jesús Eduardo Ibarra, Yahya Kocakale, Zunaira
 
 
 - **Term Project report**
-  - Read the project report document to gain insights into the methodology, findings, and conclusions:
+  - Read the project report document to gain insights into the methodology, findings, and conclusions: [Report](https://github.com/Alejandra-savagebriz/TermProject2/blob/main/Report)
 
 
 - **Powerpoint presentation:**

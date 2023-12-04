@@ -1,0 +1,63 @@
+# Term Project 2: Add title
+Data Engineering 1  
+Central European University  
+Team 2: Alejandra Savage, Jesús Eduardo Ibarra, Yahya Kocakale, Zunaira Pusha
+
+## Table of Contents
+- [Overview](#overview)
+  - [Data Sources](#data-source)
+    - [Data Schema](#data-schema)
+  - [Analytics Plan](#analytics-plan)
+- [Operational layer](#operational-layer)
+  - [Architecture](#architecture)
+  - [EER Diagram](#eer-diagram)
+- [Analytical Layer](#analytical-layer)
+  - [Datawarehouse](#datawarehouse)
+- [ETL Pipeline Knime](#etl-pipeline)
+  - [Nodes and components](#events-and-stored-procedures)
+- [Visualizations](#datamarts)
+- [Reproducibility](#reproducibility)
+- [Extras](#extras)
+  - [NoSQL data](#triggers-2)
+  - [Cloud services and data](#testing)
+
+# Overview
+## Data Source 
+
+
+
+### Data schema  
+
+
+
+## Analytics Plan
+
+
+# Operational Layer
+## Architecture
+This is the architecture followed for creating the Operational layer.
+![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/a4338323-7f9c-42ae-a6b2-17d45a959fab)
+
+  ## EER Diagram        
+
+
+
+               
+# Analytical Layer
+## Data Warehouse
+
+
+
+# ETL Pipeline Knime
+
+
+
+# Nodes and components
+
+
+# Reproducibility
+
+# Extras
+## NoSQL data
+
+## Cloud services and data
