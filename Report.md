@@ -66,7 +66,6 @@ Correlation between Education, Unemployment Rate, and GDP per Capita: Highlighti
 This is the architecture followed for creating the Operational layer:
 ![image](https://github.com/Alejandra-savagebriz/TermProject2/assets/88064979/894d94b6-bf30-458e-9ded-38fabdf8b83d)
 
-![image](https://github.com/Alejandra-savagebriz/TermProject2/assets/88064979/3f9f3a5b-79c9-4f6c-8c9e-516f51ea888c)
 
 
   ## EER Diagram        
@@ -81,39 +80,31 @@ To create the analytical layer after loading all the tables from the Entity-Rela
 
 ![image](https://github.com/Alejandra-savagebriz/TermProject2/assets/88064979/f03376ab-9723-45e0-a1f2-754f97ebd0e3)
 
-               
-# Analytical Layer
-## Data Warehouse
-To create the analytical layer after loading all the tables from the Entity-Relationship Diagram (EER), it is essential to understand the primary keys in each table.This was crucial for determining the best way to link and join these tables efficiently enabling the extraction of valuable insights.
 
 
 # ETL Pipeline Knime
-After identifying the specific attributes and features necessary for the data warehouse, the start of data processing through the ETL (Extract, Transform, Load) procedure becomes a pivotal step. 
+After identifying the specific attributes and features necessary for the data warehouse, the start of data processing through the ETL (Extract, Transform, Load) procedure becomes a pivotal step. The Knime ETL workflow:
 ![image](https://github.com/Alejandra-savagebriz/TermProject2/assets/88064979/dc455bb3-1efc-44af-b9e4-50b062446733)
 
+## Extract
 The **Extract** part consisted in extracting and joining data from the 3 source tables (AWS dataset, MongoDB dataset, and World Bank data).
 ![image](https://github.com/Alejandra-savagebriz/TermProject2/assets/88064979/0e74e57b-570f-410b-b6ae-a07efd5f3dbe)
 
-
+## Transform
 The **Transform** part consisted in renaming columns, replacing missing values, rounding values, filtering columns, and modifying special characters in the data:
 ![image](https://github.com/Alejandra-savagebriz/TermProject2/assets/88064979/063a001f-691f-429c-9b01-d59b4094123c)
 
-
+## Load
 The **Load** part consisted in joining the three datasets in order to have a final table with the different data in order to proceed with the analytics plan by doing the datamarts and visualizations:
 ![image](https://github.com/Alejandra-savagebriz/TermProject2/assets/88064979/7bb12de0-6f35-4af3-b7af-2b4fd85c1b88)
 
-
-
-# Nodes and components
+## Nodes and components
 <p align="justify">The components and nodes used in the Knime workflow:
 
 - **EXTRACT**: GET Request, JSON Path, MongoDB Connector, MongoDB Aggregation, File Reader
 - **TRANSFORM**: Ungroup, Column Renamer, JSON to Table, Row Filter, Column, Filter, String Manipulation (Multi Column), Round Double, Double to Integer, Top k       Row Filter
 - **LOAD**: Joiner, Pivot
 - **VIEWS**: Pie Chart, Scatter Plot (Plotly), Bar Char, Bubble Char (Plotly), Line Plot
-
-# Reproducibility
-The Knime workflow has been tested in multiple computers in order to be easy to execute without the need of passwords or connections to a local instance.
 
 # Visualizations
 <p align="justify">The datamarts and visualizations stated in the Analytics plan had the following results:
@@ -140,14 +131,18 @@ Some insights from the pie chart:
 * _Life Expectancy and Birth Rate Bar Chart_: Illustrating population health indicators across nations.
   ![image](https://github.com/Alejandra-savagebriz/TermProject2/assets/88064979/959cc462-0b97-41bb-8373-10b96d9557e7)
 
+
+
 <p align="justify">The graph shows a negative correlation between the two variables, meaning that countries with higher life expectancies tend to have lower birth rates. For example, Iceland has a birth rate of 11.5 births per 1,000 people, while Singapore has a birth rate of just 8.6 births per 1,000 people. This variation is likely due to a number of factors, such as cultural differences, government policies, and the availability of childcare.
 
 <p align="justify">Overall, the graph suggests that there is a link between economic development and birth rates. Countries with higher life expectancies tend to have lower birth rates. This is likely due to a number of factors, including the later childbearing, higher education levels, and rising cost of living.
+
 
 * _Bubble Chart for Unemployment Rate, Education Expenses, and GDPPC_: Providing a multi-dimensional view of socio-economic metrics.
   ![image](https://github.com/Alejandra-savagebriz/TermProject2/assets/88064979/5be1293a-e6f3-4523-af51-8909b3996ad7)
 
 <p align="justify">The graph shows a positive correlation between the two variables, meaning that countries with higher GDP per capita tend to have higher life expectancies. Countries with higher GDP per capita tend to have higher life expectancies. This is likely due to a number of factors, including the ability to afford to spend more on healthcare and other social programs, better access to clean water and sanitation, and healthier diets and lifestyles.
+
 
 * _Top 10 Countries with Highest GDPPC vs. Birth Rate and Life Expectancy_: A comparative analysis showcasing the correlation between economic status and vital societal indicators.
   ![image](https://github.com/Alejandra-savagebriz/TermProject2/assets/88064979/dc889e96-ae6c-4e09-ac6e-38f25b533f17)
@@ -155,6 +150,10 @@ Some insights from the pie chart:
 <p align="justify">The chart shows a clear positive correlation between GDP per capita and life expectancy, and a negative correlation between GDP per capita and birth rate. This is consistent with the findings of other studies, which have shown that countries with higher GDP per capita tend to have lower birth rates and higher life expectancies. It is important to note that the correlations shown in the chart do not necessarily mean that GDP per capita directly causes changes in birth rates and life expectancy. There are many other factors that can influence these variables, such as cultural norms, government policies, and environmental conditions.
 
 <p align="justify">Overall, the chart provides a useful snapshot of the relationship between GDP per capita, birth rate, and life expectancy in the top 10 richest countries in the world. It suggests that economic development is associated with a number of positive outcomes, including better health and well-being.
+
+# Reproducibility
+The Knime workflow has been tested in multiple computers in order to be easy to execute without the need of passwords or connections to a local instance.
+
 
 # Conclusions
 <p align="justify">Overall, the chart provides a useful snapshot of the relationship between GDP per capita, birth rate, and life expectancy in the top 10 richest countries in the world. It suggests that economic development is associated with a number of positive outcomes, including better health and well-being.
