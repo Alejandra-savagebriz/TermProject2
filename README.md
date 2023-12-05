@@ -14,12 +14,10 @@ Team 2 members: Alejandra Savage, Jesús Eduardo Ibarra, Yahya Kocakale, Zunaira
 
 - **Term Project report**
   - Read the project report document to gain insights into the methodology, findings, and conclusions: [Report](https://github.com/Alejandra-savagebriz/TermProject2/blob/main/Report)
-
-- **ER diagram**
-    -Consult the ERR diagram: [ERD](https://github.com/Alejandra-savagebriz/TermProject2/blob/main/ERD.png)
+  - 
 
 - **Powerpoint presentation:**
-  - Find the project PPT file:
+  - Find the project PPT file: [Project slides](https://github.com/Alejandra-savagebriz/TermProject2/blob/main/Data%20Engineering%20I%20-%20Slides.pptx)
 
 
 - **Source files Folder:**
