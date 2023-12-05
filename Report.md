@@ -29,13 +29,21 @@ This report embarks on an extensive exploration of the interwoven realms of glob
 This project draws its data from three distinct public sources, compiling an extensive array of economic, social, and educational indicators spanning from 2021 to 2023.
 
 **_Dataset 1: Country Insights and GDP per Capita_**
+
+
 The primary dataset encompasses fundamental country-level details such as country codes, general characteristics, and the corresponding GDP per capita values for each nation. Uploaded into the **MongoDB instance**, this dataset lays the groundwork for subsequent data integration processes.
 
 **_Dataset 2: World Bank API's GDP per Capita_**
+
+
 Augmenting the economic dataset, GDP per capita information sourced from the **World Bank API** was seamlessly integrated into the MongoDB database. This step ensures data uniformity and precision in the GDP per capita figures.
 
 **_Dataset 3: Socioeconomic Metrics - Education, Life Expectancy, Birth Rate, and Enrollments_**
+
+
 Expanding the analytical horizon, the third dataset introduces additional socioeconomic markers, including education expenses, life expectancy, birth rates, and both primary and tertiary enrollment ratios. These crucial statistics were harmoniously integrated into the MongoDB database, completing the comprehensive data assembly. This dataset was retrieved from [Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/countries-of-the-world-2023) and later uploaded it with a public URL into **Amazon Web Services S3 storage buckkets** in order to access it directly from Knime without the need to do manual work.
+
+
 
 By joining these diverse datasets, the project established an exhaustive repository of economic, social, and educational indicators, empowering thorough analysis and exploration of global trends. Leveraging the MongoDB NoSQL database, the Amazon Web services bucket storage, and the API queries provided not only scalability but also flexibility in managing data, enabling seamless access and manipulation throughout the project lifecycle.
 
