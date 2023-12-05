@@ -13,8 +13,7 @@ Team 2 members: Alejandra Savage, Jesús Eduardo Ibarra, Yahya Kocakale, Zunaira
 
 
 - **Term Project report**
-  - Read the project report document to gain insights into the methodology, findings, and conclusions: [Report](https://github.com/Alejandra-savagebriz/TermProject2/blob/main/Report](https://github.com/Alejandra-savagebriz/TermProject2/blob/main/Report.md)
-  - 
+  - Read the project report document to gain insights into the methodology, findings, and conclusions: [Report](https://github.com/Alejandra-savagebriz/TermProject2/blob/main/Report.md)
 
 - **Powerpoint presentation:**
   - Find the project PPT file: [Project slides](https://github.com/Alejandra-savagebriz/TermProject2/blob/main/Data%20Engineering%20I%20-%20Slides.pptx)
