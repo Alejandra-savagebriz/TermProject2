@@ -161,7 +161,11 @@ The Knime workflow has been tested in multiple computers in order to be easy to 
 This project has helped to show the intricate relationships between education, economic prosperity, and demographic trends. It has demonstrated the importance of education as a driving force for socioeconomic development and highlighted the interconnectedness of various socioeconomic factors. 
 
 <p align="justify">Overall, the chart provides a useful snapshot of the relationship between GDP per capita, birth rate, and life expectancy in the top 10 richest countries in the world. It suggests that economic development is associated with a number of positive outcomes, including better health and well-being.
-From the foundational dataset encompassing country-level details to the integration of World Bank API's GDP per capita figures and the addition of crucial socioeconomic metrics, the project established a comprehensive repository. Visualizations elucidated critical correlations, highlighting the relationship between economic prosperity, education spending, health indicators, and birth rates. These findings underscore the significance of strategic investments in education, health, and socio-economic policies, advocating for a comprehensive approach to foster robust and sustainable global development. Ultimately, this project serves as a testament to the power of Data Engineering in unraveling complex societal dynamics, providing insights crucial for informed decision-making and policy formulation towards a more equitable and prosperous global future.
+From the foundational dataset encompassing country-level details to the integration of World Bank API's GDP per capita figures and the addition of crucial socioeconomic metrics, the project established a comprehensive repository. Visualizations elucidated critical correlations, highlighting the relationship between economic prosperity, education spending, health indicators, and birth rates. 
+
+These discoveries highlight how important it is to invest smartly in education, health, and social and economic policies. It's about taking a broad approach to support strong and long-lasting global progress. This project proves how using Data Engineering can help us understand complicated social issues. It gives us valuable insights that we need to make smart decisions and create policies that will lead to a fairer and more successful world for everyone.
+
+
 
 # Extras
 In order to enhance the project, the following extras were considered:
