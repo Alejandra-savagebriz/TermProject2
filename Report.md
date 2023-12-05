@@ -142,7 +142,7 @@ Some insights from the pie chart:
 * _Bubble Chart for Unemployment Rate, Education Expenses, and GDPPC_: Providing a multi-dimensional view of socio-economic metrics.
   ![image](https://github.com/Alejandra-savagebriz/TermProject2/assets/88064979/5be1293a-e6f3-4523-af51-8909b3996ad7)
 
-<p align="justify">The graph shows a positive correlation between the two variables, meaning that countries with higher GDP per capita tend to have higher life expectancies. Countries with higher GDP per capita tend to have higher life expectancies. This is likely due to a number of factors, including the ability to afford to spend more on healthcare and other social programs, better access to clean water and sanitation, and healthier diets and lifestyles.
+<p align="justify">The graph shows a positive correlation between the two variables, meaning that countries with higher GDP per capita tend to have higher unemployment rates. 
 
 
 * _Top 10 Countries with Highest GDPPC vs. Birth Rate and Life Expectancy_: A comparative analysis showcasing the correlation between economic status and vital societal indicators.
