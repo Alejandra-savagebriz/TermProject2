@@ -34,7 +34,7 @@ The primary dataset serves as a comprehensive reference table, encompassing fund
 
 Augmenting the economic dataset, GDP per capita information sourced from the **World Bank API** was seamlessly integrated into the MongoDB database. This step ensures data uniformity and precision in the GDP per capita figures.
 
-**_Dataset 2: World Bank API's GDP per Capita_**
+**_Dataset 2: World Bank data GDP per Capita_**
 GDP per capita information, along with government education expenditures as shares of GDP by country, meticulously sourced from the **World Bank database**, has been seamlessly integrated and stored in the **MongoDB Atlas** database. This strategic step ensures not only data uniformity but also precision in capturing and retaining crucial economic indicators for in-depth analysis and future insights.
 
 
