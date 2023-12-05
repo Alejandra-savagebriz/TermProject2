@@ -31,4 +31,4 @@ Team 2 members: Alejandra Savage, Jesús Eduardo Ibarra, Yahya Kocakale, Zunaira
 It is not necessary to download the datasets to execute the Knime workflow since the components nodes are designed to directly retrieve the data from the 3 different sources:
 1) [World Bank API](https://api.worldbank.org/v2/country?format=json&per_page=300)
 2) [World dataset from Kaggle in AWS](https://ceu2023-alejandra.s3.eu-west-1.amazonaws.com/world-data-2023.csv)
-3) [MongoDB instance](cluster0.tf3le2n.mongodb.net/?retryWrites=true&w=majority)
+3) [MongoDB dataset uploaded in local MongoDB cloud instance](https://github.com/Alejandra-savagebriz/TermProject2/blob/main/Datasets/worldbank_mongodb.csv)
