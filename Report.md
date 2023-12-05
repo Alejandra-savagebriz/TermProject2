@@ -31,7 +31,6 @@ Team 2: Alejandra Savage, Jesús Eduardo Ibarra, Yahya Kocakale, Zunaira Pusha
 
 **_Dataset 1: Country Insights and GDP per Capita_**
 
-
 <p align="justify">The primary dataset encompasses fundamental country-level details such as country codes, general characteristics, and the corresponding GDP per capita values for each nation. Uploaded into the **MongoDB instance**, this dataset lays the groundwork for subsequent data integration processes.
 
 **_Dataset 2: World Bank API's GDP per Capita_**
