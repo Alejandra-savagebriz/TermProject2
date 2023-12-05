@@ -25,24 +25,20 @@ Team 2: Alejandra Savage, Jesús Eduardo Ibarra, Yahya Kocakale, Zunaira Pusha
 ## Data Source 
 
 
-
-### Data schema  
-
-
-
 ## Analytics Plan
 
 
 # Operational Layer
 ## Architecture
-This is the architecture followed for creating the Operational layer.
-![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/a4338323-7f9c-42ae-a6b2-17d45a959fab)
+
 
   ## EER Diagram        
 
-<p align="justify"> The following Enhanced-Entity-Relationship Diagram (ERR) was created within MySQL Workbench, considering the distinctive attributes and interconnections inherent in each of the datasets associated with World country available data. This diagram shows the primary keys, serving as unique identifiers for records within each dataset, and the consequential establishment of corresponding foreign keys that underpin pivotal connections and associations between the datasets.         
+<p align="justify">
 
-![image](https://github.com/Alejandra-savagebriz/Term-Project-1/assets/88064979/cff05e02-ef0d-4e13-a894-c7592f92bc54)
+![image](https://github.com/Alejandra-savagebriz/TermProject2/assets/88064979/89bac56c-bfca-42e3-be6c-b95dd2d8ab73)
+
+
 
                
 # Analytical Layer
