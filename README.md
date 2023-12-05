@@ -9,7 +9,7 @@ Team 2 members: Alejandra Savage, Jesús Eduardo Ibarra, Yahya Kocakale, Zunaira
 ## Files and Resources
 
 - **Knime workflow:**
-  - Explore the Knime workflow: [Knime workflow file](https://github.com/Alejandra-savagebriz/TermProject2/blob/main/KNIME_DE1_Project2_OK.knwf)
+  - Explore the Knime workflow: [Knime workflow file]([https://github.com/Alejandra-savagebriz/TermProject2/blob/main/KNIME_DE1_Project2_OK.knwf](https://github.com/Alejandra-savagebriz/TermProject2/blob/main/KNIME_DE1_Project2_T2.knwf))
 
 
 - **Term Project report**
