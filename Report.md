@@ -23,10 +23,10 @@ Team 2: Alejandra Savage, Jesús Eduardo Ibarra, Yahya Kocakale, Zunaira Pusha
 
 # Overview
 ## Introduction
-This report embarks on an extensive exploration of the interwoven realms of global economics, social landscapes, and educational landscapes, spanning the period from 2021 to 2023. Through the compilation and analysis of data from three diverse public sources, and using Data Engineering concepts, this project unveils a rich tapestry of insights, shedding light on the intricate interplay of socioeconomic factors that influence our world.
+<div style="text-align: justify;"> This report embarks on an extensive exploration of the interwoven realms of global economics, social landscapes, and educational landscapes, spanning the period from 2021 to 2023. Through the compilation and analysis of data from three diverse public sources, and using Data Engineering concepts, this project unveils a rich tapestry of insights, shedding light on the intricate interplay of socioeconomic factors that influence our world.
 
 ## Data Source 
-This project draws its data from three distinct public sources, compiling an extensive array of economic, social, and educational indicators spanning from 2021 to 2023.
+<div style="text-align: justify;"> This project draws its data from three distinct public sources, compiling an extensive array of economic, social, and educational indicators spanning from 2021 to 2023.
 
 **_Dataset 1: Country Insights and GDP per Capita_**
 
@@ -48,6 +48,7 @@ Expanding the analytical horizon, the third dataset introduces additional socioe
 By joining these diverse datasets, the project established an exhaustive repository of economic, social, and educational indicators, empowering thorough analysis and exploration of global trends. Leveraging the MongoDB NoSQL database, the Amazon Web services bucket storage, and the API queries provided not only scalability but also flexibility in managing data, enabling seamless access and manipulation throughout the project lifecycle.
 
 ## Analytics Plan
+<div style="text-align: justify;">
 By harmonizing these diverse datasets, the project establishes an exhaustive repository of indicators. The subsequent visualizations provide critical insights:
 
 * _Education Spending Priorities of Top 10 Richest Nations_: Linked to GDP per capita, showcasing fiscal priorities in education across affluent nations.
@@ -55,11 +56,11 @@ Correlation between Education, Unemployment Rate, and GDP per Capita: Highlighti
 
 * _GDP per Capita vs. Education Scatterplot_: Exploring the relationship between economic prosperity and education.
 
-*_Life Expectancy and Birth Rate Bar Chart_: Illustrating population health indicators across nations.
+* _Life Expectancy and Birth Rate Bar Chart_: Illustrating population health indicators across nations.
 
-*_Bubble Chart for Unemployment Rate, Education Expenses, and GDPPC_: Providing a multi-dimensional view of socio-economic metrics.
+* _Bubble Chart for Unemployment Rate, Education Expenses, and GDPPC_: Providing a multi-dimensional view of socio-economic metrics.
 
-*_Top 10 Countries with Highest GDPPC vs. Birth Rate and Life Expectancy_: A comparative analysis showcasing the correlation between economic status and vital societal indicators.
+* _Top 10 Countries with Highest GDPPC vs. Birth Rate and Life Expectancy_: A comparative analysis showcasing the correlation between economic status and vital societal indicators.
 
 # Operational Layer
 ## Architecture
