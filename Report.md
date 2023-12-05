@@ -30,12 +30,13 @@ Team 2: Alejandra Savage, Jesús Eduardo Ibarra, Yahya Kocakale, Zunaira Pusha
 
 **_Dataset 1: Country Insights and GDP per Capita_**
 
-The primary dataset encompasses fundamental country-level details such as country codes, general characteristics, and the corresponding GDP per capita values for each nation. Uploaded into the **MongoDB instance**, this dataset lays the groundwork for subsequent data integration processes.
-
-**_Dataset 2: World Bank API's GDP per Capita_**
-
+The primary dataset serves as a comprehensive reference table, encompassing fundamental country-level details, including country codes, ids, region ids, capital cities, income levels, and essential governmental characteristics. This foundational information lays the groundwork for subsequent data integration processes, providing a robust framework for analysis.
 
 Augmenting the economic dataset, GDP per capita information sourced from the **World Bank API** was seamlessly integrated into the MongoDB database. This step ensures data uniformity and precision in the GDP per capita figures.
+
+**_Dataset 2: World Bank data GDP per Capita_**
+GDP per capita information, along with government education expenditures as shares of GDP by country, meticulously sourced from the **World Bank database**, has been seamlessly integrated and stored in the **MongoDB Atlas** database. This strategic step ensures not only data uniformity but also precision in capturing and retaining crucial economic indicators for in-depth analysis and future insights.
+
 
 **_Dataset 3: Socioeconomic Metrics - Education, Life Expectancy, Birth Rate, and Enrollments_**
 
@@ -141,7 +142,7 @@ Some insights from the pie chart:
 * _Bubble Chart for Unemployment Rate, Education Expenses, and GDPPC_: Providing a multi-dimensional view of socio-economic metrics.
   ![image](https://github.com/Alejandra-savagebriz/TermProject2/assets/88064979/5be1293a-e6f3-4523-af51-8909b3996ad7)
 
-<p align="justify">The graph shows a positive correlation between the two variables, meaning that countries with higher GDP per capita tend to have higher life expectancies. Countries with higher GDP per capita tend to have higher life expectancies. This is likely due to a number of factors, including the ability to afford to spend more on healthcare and other social programs, better access to clean water and sanitation, and healthier diets and lifestyles.
+<p align="justify">The graph shows a positive correlation between the two variables, meaning that countries with higher GDP per capita tend to have higher unemployment rates. 
 
 
 * _Top 10 Countries with Highest GDPPC vs. Birth Rate and Life Expectancy_: A comparative analysis showcasing the correlation between economic status and vital societal indicators.
@@ -160,7 +161,11 @@ The Knime workflow has been tested in multiple computers in order to be easy to 
 This project has helped to show the intricate relationships between education, economic prosperity, and demographic trends. It has demonstrated the importance of education as a driving force for socioeconomic development and highlighted the interconnectedness of various socioeconomic factors. 
 
 <p align="justify">Overall, the chart provides a useful snapshot of the relationship between GDP per capita, birth rate, and life expectancy in the top 10 richest countries in the world. It suggests that economic development is associated with a number of positive outcomes, including better health and well-being.
-From the foundational dataset encompassing country-level details to the integration of World Bank API's GDP per capita figures and the addition of crucial socioeconomic metrics, the project established a comprehensive repository. Visualizations elucidated critical correlations, highlighting the relationship between economic prosperity, education spending, health indicators, and birth rates. These findings underscore the significance of strategic investments in education, health, and socio-economic policies, advocating for a comprehensive approach to foster robust and sustainable global development. Ultimately, this project serves as a testament to the power of Data Engineering in unraveling complex societal dynamics, providing insights crucial for informed decision-making and policy formulation towards a more equitable and prosperous global future.
+From the foundational dataset encompassing country-level details to the integration of World Bank API's GDP per capita figures and the addition of crucial socioeconomic metrics, the project established a comprehensive repository. Visualizations elucidated critical correlations, highlighting the relationship between economic prosperity, education spending, health indicators, and birth rates. 
+
+These discoveries highlight how important it is to invest smartly in education, health, and social and economic policies. It's about taking a broad approach to support strong and long-lasting global progress. This project proves how using Data Engineering can help us understand complicated social issues. It gives us valuable insights that we need to make smart decisions and create policies that will lead to a fairer and more successful world for everyone.
+
+
 
 # Extras
 In order to enhance the project, the following extras were considered:
