@@ -30,12 +30,13 @@ Team 2: Alejandra Savage, Jesús Eduardo Ibarra, Yahya Kocakale, Zunaira Pusha
 
 **_Dataset 1: Country Insights and GDP per Capita_**
 
-The primary dataset encompasses fundamental country-level details such as country codes, general characteristics, and the corresponding GDP per capita values for each nation. Uploaded into the **MongoDB instance**, this dataset lays the groundwork for subsequent data integration processes.
-
-**_Dataset 2: World Bank API's GDP per Capita_**
-
+The primary dataset serves as a comprehensive reference table, encompassing fundamental country-level details, including country codes, ids, region ids, capital cities, income levels, and essential governmental characteristics. This foundational information lays the groundwork for subsequent data integration processes, providing a robust framework for analysis.
 
 Augmenting the economic dataset, GDP per capita information sourced from the **World Bank API** was seamlessly integrated into the MongoDB database. This step ensures data uniformity and precision in the GDP per capita figures.
+
+**_Dataset 2: World Bank API's GDP per Capita_**
+GDP per capita information, along with government education expenditures as shares of GDP by country, meticulously sourced from the **World Bank database**, has been seamlessly integrated and stored in the **MongoDB Atlas** database. This strategic step ensures not only data uniformity but also precision in capturing and retaining crucial economic indicators for in-depth analysis and future insights.
+
 
 **_Dataset 3: Socioeconomic Metrics - Education, Life Expectancy, Birth Rate, and Enrollments_**
 
