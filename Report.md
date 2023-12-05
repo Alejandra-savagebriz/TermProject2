@@ -1,4 +1,4 @@
-# Term Project 2 Intersections of Global Progress: Unveiling Socioeconomic Trends
+# Term Project 2 Intersections of Global Progress: Understanding Socioeconomic Trends
 Data Engineering 1  
 Central European University  
 Team 2: Alejandra Savage, Jesús Eduardo Ibarra, Yahya Kocakale, Zunaira Pusha
