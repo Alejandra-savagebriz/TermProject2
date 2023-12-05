@@ -1,4 +1,4 @@
-# TermProject2
+# Term Project 2
 
 Welcome to the Data Engineering 1 Term Project 2 repository. This repository hosts essential files and resources related to the project.
 
