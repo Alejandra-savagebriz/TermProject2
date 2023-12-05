@@ -23,11 +23,11 @@ Team 2: Alejandra Savage, Jesús Eduardo Ibarra, Yahya Kocakale, Zunaira Pusha
 
 # Overview
 ## Introduction
-<div style="text-align: justify;"> This report embarks on an extensive exploration of the interwoven realms of global economics, social landscapes, and educational landscapes, spanning the period from 2021 to 2023. Through the compilation and analysis of data from three diverse public sources, and using Data Engineering concepts, this project unveils a rich tapestry of insights, shedding light on the intricate interplay of socioeconomic factors that influence our world.
+<p align="justify"> This report embarks on an extensive exploration of the interwoven realms of global economics, social landscapes, and educational landscapes, spanning the period from 2021 to 2023. Through the compilation and analysis of data from three diverse public sources, and using Data Engineering concepts, this project unveils a rich tapestry of insights, shedding light on the intricate interplay of socioeconomic factors that influence our world.
 
 ## Data Source 
-<div style="text-align: justify;"> This project draws its data from three distinct public sources, compiling an extensive array of economic, social, and educational indicators spanning from 2021 to 2023.
-
+<p align="justify"> This project draws its data from three distinct public sources, compiling an extensive array of economic, social, and educational indicators spanning from 2021 to 2023.
+<p align="justify">
 **_Dataset 1: Country Insights and GDP per Capita_**
 
 
@@ -48,7 +48,7 @@ Expanding the analytical horizon, the third dataset introduces additional socioe
 By joining these diverse datasets, the project established an exhaustive repository of economic, social, and educational indicators, empowering thorough analysis and exploration of global trends. Leveraging the MongoDB NoSQL database, the Amazon Web services bucket storage, and the API queries provided not only scalability but also flexibility in managing data, enabling seamless access and manipulation throughout the project lifecycle.
 
 ## Analytics Plan
-<div style="text-align: justify;">
+<p align="justify">
 By harmonizing these diverse datasets, the project establishes an exhaustive repository of indicators. The subsequent visualizations provide critical insights:
 
 * _Education Spending Priorities of Top 10 Richest Nations_: Linked to GDP per capita, showcasing fiscal priorities in education across affluent nations.
